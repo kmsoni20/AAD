@@ -19,3 +19,9 @@ def speak(audio):
 
 speak("this is PONDI")
 
+def speak(audio):
+    engine.say(audio)
+    engine.runAndWait()
+
+speak("this is jarvis")
+
